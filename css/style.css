@@ -290,4 +290,60 @@ text-transform: capitalize;
 
 footer{
     background-color: #121318;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+
+footer h3{
+    color:  #f95f43;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+footer p{
+    color: #b0b3c4;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.foot ul{
+    padding: 0px;
+}
+footer .foot ul li a{
+    color: #b0b3c4;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer .foot ul li a:hover{
+    color: #fff;
+}
+
+footer .foot ul li{
+    list-style: none;
+}
+
+footer label{
+    color: #b0b3c4;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.redes ul{
+    padding-left: 0px;
+}
+
+footer .redes ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+footer .copy p{
+    /* display: none; */
+    /* float: left; */
+    text-align: right;
+    justify-content: flex-end;
 }
