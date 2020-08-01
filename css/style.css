@@ -282,3 +282,12 @@ text-transform: capitalize;
     font-family: sans-serif;
     font-size: 17px;
 }
+
+/* .avatar{
+    width: 175px;
+    height: 179px;
+} */
+
+footer{
+    background-color: #121318;
+}
