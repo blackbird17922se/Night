@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Night</title>
+</head>
+
+<body onload="ConteoRegresivo()">
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 logo">
+                    <a href=""><img src="images/logo.png" alt="Logo"></a>
+                </div>
+
+                <div class="col-lg-9 menu">
+                    <ul>
+                        <li><a href="#header">INICIO</a></li>
+                        <li><a href="#token">TOKEN</a></li>
+                        <li><a href="">FEATURES</a></li>
+                        <li><a href="">ROADMAP</a></li>
+                        <li><a href="#equipo">NUESTRO EQUIPO</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#contacto">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hero -->
+            <div class="row">           
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide col-lg-4" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                                <p>Aspernatur dicta eius dolorem illum numquam eos non ipsum nisi
+                                    magnam voluptas distinctio magni maiores dignissimos nostrum odio quo,
+                                    voluptatibus nemo eaque.
+                                </p>
+                                <button type="button" class="btn">Lorem ipsum</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>possimus dolor beatae quis</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Voluptates error quidem nulla dolor, placeat dolorem voluptas 
+                                    voluptate totam impedit ex dicta sit consectetur hic atque earum quo! Laborum, quas necessitatibus!
+                                </p>
+                                <button type="button" class="btn">possimus dolor</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>blanditiis aut molestias laborum magni!</h1>
+                                <p> Nesciunt, corporis? Ratione, quaerat dolor commodi
+                                     sit nulla a, soluta error excepturi quo accusantium 
+                                     possimus voluptas at quisquam aperiam, repellendus odit blanditiis.
+                                </p>
+                                <button type="button" class="btn">blanditiis</button>
+                            </div>
+                        </div>
+                    </div> <!-- fin car -->
+
+                    <div class="col-lg-8 imghero"></div>
+
+            </div>
+
+            <div class="row paginas">
+                <ul>
+                    <li><a href=""><img src="images/pat1.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pat2.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pat3.png" alt=""></a></li>
+                    <li><a href=""><img src="images/pat4.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="row token" id="token">
+                <div class="col-lg-6">
+                    <div id="contador"></div>
+                    <label id="labcontador" for="contador">Días &nbsp;&nbsp; -  Horas  -  Minutos - Segundos</label>
+                    <div class="row rango">
+                        <p>500.000 XYZ</p>
+                        <form>
+                            <div class="form-group">
+                              <input type="range" min="1" max="100"class="slider" id="formControlRange">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+         
+                <div class="col-lg-3 chart-wrap horizontal">                   
+                    <div class="grid">
+                        <div class="bar" style="--bar-value:85%;" data-name="85%" title="Your Blog 85%"></div>
+                        <div class="bar" style="--bar-value:23%;" data-name="23%" title="Medium 23%"></div>
+                        <div class="bar" style="--bar-value:7%;" data-name="7%" title="Tumblr 7%"></div>
+                        <div class="bar" style="--bar-value:38%;" data-name="38%" title="Facebook 38%"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 venta">
+                    <h2 class="t1">token sale</h2>
+                    <h2 class="t2">allocation</h2>
+                    <button type="button" class="btn">buy tokens</button>
+                </div>
+
+            </div> <!--Fin row Token  -->
+<!--  -->
+        </div>
+
+        <div >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7" id="features"></div>
+                    <div class="col-lg-5 feat2">
+                        <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                        <p>Aspernatur dicta eius dolorem illum numquam eos non ipsum nisi
+                            magnam voluptas distinctio magni maiores dignissimos nostrum odio quo,
+                            voluptatibus nemo eaque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+    <script src="js/functions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>

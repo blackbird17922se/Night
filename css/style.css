@@ -1,0 +1,246 @@
+body{
+    background-color: #161920;
+}
+
+.logo{
+    margin-top: 50px;
+}
+
+.menu{
+    /* justify-content: flex-end; */
+    align-items: center; 
+}
+
+.menu ul{
+    float: right;
+    padding-top: 77px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #b0b3c4;
+    font-size: 13px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.menu ul li a:hover{
+    color: #ffff;
+}
+
+.carousel h1{
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+.carousel p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #b0b3c4;
+}
+
+#carouselExampleSlidesOnly{
+    margin-top: 130px;
+    float: left;
+}
+
+.imghero{
+    background: url(../images/heroimg.png)center no-repeat;
+    width: 100%;
+    /* position: relative; */
+    max-width: 100%;;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    background-size: cover;
+}
+
+.carousel-item button{
+    background: #f95f43;
+    padding: 15px;
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
+
+.carousel-item button:hover{
+    background: #f5836f;
+    color: #ffffff;
+}
+
+.paginas ul li{
+    display: inline-block;
+    padding: 40px;
+    /* text-align: center; */
+}
+
+.token{
+    background-color: #1d2029;
+    width: 100%;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#contador{
+    font-size: 60px;
+    /* margin-top: 30px; */
+}
+
+#labcontador{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #313445;
+}
+
+.rango{
+    background-color: #262835;
+    border-radius: 0.5em;
+    padding: 20px;
+    width: 100%;
+}
+
+.rango p{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.slider{
+    width: 400px; /* Full-width */
+    height: 7px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Graficos Barras */
+.chart-wrap {
+    --chart-width:420px;
+    /* --grid-color:#aaa; */
+    --bar-color:#4b4e6d;
+    --bar-thickness:40px;
+    --bar-rounded: 3px;
+    --bar-spacing:10px;
+    font-weight:bold;
+    color: #4b4e6d;;
+    font-family:sans-serif;
+    width:var(--chart-width);
+}
+
+.chart-wrap .title{
+    font-weight:bold;
+    padding:1.8em 0;
+    text-align:center;
+    white-space:nowrap;
+}
+
+/* cuando definimos el gráfico en horizontal, lo giramos 90 grados */
+.chart-wrap.horizontal .grid{
+    transform:rotate(-90deg);
+}
+
+.chart-wrap.horizontal .bar::after{
+    /* giramos las letras para horizontal*/
+    transform: rotate(90deg);
+    padding-top:0px;
+    display: block;
+}
+
+.chart-wrap .grid{
+    margin-left:50px;
+    position:relative;
+    padding:5px 0 5px 0;
+    height:100%;
+    width:100%;
+    border-left:2px solid var(--grid-color);
+}
+
+/* giramos las valores de 0% y 100% para horizontal */
+.chart-wrap.horizontal .grid::before, .chart-wrap.horizontal .grid::after {
+    transform: rotate(90deg);
+}
+
+.chart-wrap .bar {
+    width: var(--bar-value);
+    height:var(--bar-thickness);
+    margin:var(--bar-spacing) 0;
+    background-color:var(--bar-color);
+    border-radius:0 var(--bar-rounded) var(--bar-rounded) 0;
+}
+
+.chart-wrap .bar:hover{
+    opacity:0.7;
+}
+
+.chart-wrap .bar::after{
+    content:attr(data-name);
+    margin-left:100%;
+    padding:10px;
+    display:inline-block;
+    white-space:nowrap;
+}
+
+/* Titulo Token sale */
+.t1{
+color: #f95f43;
+margin-top: 40px;
+font-family: sans-serif;
+text-transform: capitalize;
+}
+
+.t2{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.venta button{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: #ffff;
+    font-size: 17px;   
+    background: #f95f43;
+    padding: 10px 30px 10px;
+}
+
+.venta button:hover{
+    background: #f5836f;
+    color: #ffffff;
+}
+
+#features{
+    background: url(../images/feature_img.png) center no-repeat;
+    width: 100%;
+    position: relative;
+    right: 110px;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    max-width: 100%;;
+    background-size: cover;
+}
+
+.feat2{
+    font-family: sans-serif;
+}
+
+.feat2 h1{
+   color: #ffffff;
+   margin-bottom: 20px;
+}
+
+.feat2 p{
+    color: #b0b3c4;
+    
+}
