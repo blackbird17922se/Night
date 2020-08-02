@@ -113,7 +113,7 @@ header .menu{
     background-color: #1d2029;
     border-radius: 0.5em;
     color: #fff;
-    padding: 70px;
+    /* padding: 70px; */
     margin-bottom: 100px;
 }
 
@@ -132,14 +132,14 @@ header .menu{
 }
 
 .rango{
-    background-color: #262835;
+    /* background-color: #262835;
     border-radius: 0.5em;
     padding: 20px;
-    width: 100%;
+    width: 100%; */
     /* height: 100%; */
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .rango input[type="range"] {
@@ -151,6 +151,10 @@ header .menu{
     margin: 24px 0;
     /* transition: box-shadow 0.2s ease-in-out; */
 }
+
+/* input[type="range"]:focus{
+    outline-offset: 500px;
+} */
 
 .rango h4{
     margin: 0;
@@ -172,13 +176,13 @@ header .menu{
 
 /* nuevo sld */
 
-.sld {
+/* .sld {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.box-minmax{
+} */
+/* .box-minmax{
   margin-top: 30px;
   width: 608px;
   display: flex;
@@ -188,37 +192,37 @@ header .menu{
   span:first-child{
     margin-left: 500px;
   }
-}
-.range-slider {
+} */
+/* .range-slider {
     margin-top: 30vh;
     
-}
-
+} */
+/* 
 .rs-range {
     margin-top: 29px;
     width: 600px;
 
-}
+} */
 
 
 .rs-label {
     
     position: relative;
     transform-origin: center center;
-    display: block;
-    width: 98px;
+    display: inline-block;
+    /* width: 98px;
     height: 98px;
     background: transparent;
-    border-radius: 50%;
-    line-height: 30px;
+    border-radius: 50%; */
+    /* line-height: 30px; */
     text-align: center;
     font-weight: bold;
-    padding-top: 70px;
-    box-sizing: border-box;
+    /* padding-top: 70px;
+    box-sizing: border-box; */
     /* border: 2px solid #fff; */
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-left: -38px;
-    left: attr(value);
+    left: attr(value); */
     color: #f95f43;
     font-style: normal;
     font-weight: normal;
