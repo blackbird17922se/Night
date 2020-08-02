@@ -13,8 +13,8 @@
 
 <body onload="ConteoRegresivo()">
     <header id="header">
-        <div class="container">
-            <div class="row cont">
+        <div class="container conthead">
+            <div class="row barrasup">
                 <div class="col-lg-3">
                     <a href=""><img src="images/logo.png" alt="Logo"></a>
                 </div>
@@ -22,18 +22,20 @@
 
                 <div class="col-lg-5 menu">
                     <ul>
-                        <li><a href="#header">INICIO</a></li>
+                        <li><a href="#header">home</a></li>
                         <li><a href="#token">TOKEN</a></li>
                         <li><a href="#features">FEATURES</a></li>
-                        <!-- <li><a href="#equipo">NUESTRO EQUIPO</a></li>
-                        <li><a href="#blog">BLOG</a></li> -->
-                        <li><a href="#contacto">CONTACTO</a></li>
+
+                        <li><a href="#contacto">contact</a></li>
                     </ul>
                 </div>
             </div>
 
+                                    <!-- <li><a href="#equipo">NUESTRO EQUIPO</a></li>
+                        <li><a href="#blog">BLOG</a></li> -->
+
             <!-- Hero -->
-            <div class="row">
+            <div class="row hero">
 
                 <div id="carouselExampleSlidesOnly" class="carousel slide col-lg-4" data-ride="carousel">
                     <div class="carousel-inner">
@@ -69,7 +71,7 @@
 
             </div>
 
-            <div class="row paginas">
+            <div class="row paginas" id="token">
                 <ul>
                     <li><a href=""><img src="images/pat1.png" alt=""></a></li>
                     <li><a href=""><img src="images/pat2.png" alt=""></a></li>
@@ -83,8 +85,8 @@
 
     <main>
         <div class="container contoken">
-            <div class="row token" id="token">
-                <div class="col-lg-6 tokseccion1">
+            <div class="row token">
+                <div class="col-lg-6">
                     <div id="contador"></div>
                     <label id="labcontador" for="contador">Días &nbsp;&nbsp; - Horas - Minutos - Segundos</label>
                     <div class="row rango">
