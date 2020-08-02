@@ -14,12 +14,13 @@
 <body onload="ConteoRegresivo()">
     <header id="header">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 logo">
+            <div class="row cont">
+                <div class="col-lg-3">
                     <a href=""><img src="images/logo.png" alt="Logo"></a>
                 </div>
+                <div class="col-lg-4"></div>
 
-                <div class="col-lg-9 menu">
+                <div class="col-lg-5 menu">
                     <ul>
                         <li><a href="#header">INICIO</a></li>
                         <li><a href="#token">TOKEN</a></li>
@@ -81,16 +82,15 @@
     </header>
 
     <main>
-        <div class="container">
-
+        <div class="container contoken">
             <div class="row token" id="token">
-                <div class="col-lg-6">
+                <div class="col-lg-6 tokseccion1">
                     <div id="contador"></div>
                     <label id="labcontador" for="contador">Días &nbsp;&nbsp; - Horas - Minutos - Segundos</label>
                     <div class="row rango">
                         <p>500.000 XYZ</p>
                         <form>
-                            <div class="form-group">
+                            <div class="form-group col-lg-12">
                                 <input type="range" min="1" max="100" class="slider" id="formControlRange">
                             </div>
                         </form>
@@ -132,35 +132,24 @@
             </div>
         </div>
 
-        <div id="feat3">
-            <div class="container">
-                <div class="row articulos text-center">
-                    <div class="item">
-                        <img src="images/it1.png" alt="">
-                        <h2>Sunt ullam a</h2>
-                        <p>Sunt ullam a, ad quibusdam eum consectetur saepe quisquam quidem exercitationem? Maiores
-                            magnam rem alias iusto dignissimos vitae.</p>
-                    </div>
-
-                    <div class="item">
-
-                        <img src="images/it2.png" alt="">
-                        <h2>Lorem ipsum dolor</h2>
-                        <p> sit amet consectetur adipisicing elit. Unde iure repudiandae id provident eos ratione quia
-                            tenetur? Libero dignissimos porro.
-                            pariatur?</p>
-                    </div>
-                    <div class="item">
-
-                        <img src="images/it3.png" alt="">
-                        <h2>amet consectetur adipisicing</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ab molestias eveniet vel,
-                        . Libero maiores cum aut ea amet saepe placeat cumque ipsa
-                            iure? Deserunt.</p>
-                    </div>
-                </div>
+        <div class="row articulos">
+            <div class="item">
+                <img src="images/it1.png" alt="">
+                <h2>Sunt ullam a</h2>
+                <p>Sunt ullam a, ad quibusdam eum consectetur saepe quisquam quidem exercitationem? Maiores</p>
             </div>
 
+            <div class="item">
+                <img src="images/it2.png" alt="">
+                <h2>Lorem ipsum dolor</h2>
+                <p> sit amet consectetur adipisicing elit. Unde iure repudiandae id provident eos ratione</p>
+            </div>
+
+            <div class="item">
+                <img src="images/it3.png" alt="">
+                <h2>amet consectetur adipisicing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
         </div>
 
         <!-- <div class="container">
@@ -227,8 +216,8 @@
             <div class="row">
                 <div class="col-lg-6 redes">
                     <ul>
-                        <li><img src="images/social/face.png" alt=""><a href=""></a></li>
-                        <li><img src="images/social/git.png" alt=""><a href=""></a></li>
+                        <li><a href=""><img src="images/social/face.png" alt=""></a></li>
+                        <li><a href="https://github.com/blackbird17922se/Night.git"><img src="images/social/git.png" alt=""></a></li>
                         <li><img src="images/social/tel.png" alt=""><a href=""></a></li>
                         <!-- <li><img src="images/social/" alt=""><a href=""></a></li> -->
                     </ul>

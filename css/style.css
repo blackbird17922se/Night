@@ -1,19 +1,28 @@
 body{
     background-color: #161920;
+    background-size: cover;
 }
 
-.logo{
-    margin-top: 50px;
+header{
+    padding-top: 60px;
+    position: relative;
+    width: 100%;
+
 }
 
-.menu{
-    /* justify-content: flex-end; */
-    align-items: center; 
+.cont{
+    text-align: center;
+}
+
+header .menu{
+    align-items: center;
+    margin-top: 27px;
 }
 
 .menu ul{
-    float: right;
-    padding-top: 77px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 
 .menu ul li{
@@ -23,7 +32,8 @@ body{
 .menu ul li a{
     color: #b0b3c4;
     font-size: 13px;
-    padding: 15px;
+    padding: 14px 12px;
+    margin: 0px 4px;
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -75,19 +85,26 @@ body{
     color: #ffffff;
 }
 
+.paginas{
+    text-align: center;
+
+}
 .paginas ul li{
     display: inline-block;
-    padding: 40px;
-    /* text-align: center; */
+    padding: 40px; 
+}
+
+.contoken{
+    text-align: center;
+    /* margin: 0px;
+    padding: 0px; */
 }
 
 .token{
     background-color: #1d2029;
-    width: 100%;
     border-radius: 0.5em;
     color: #fff;
     padding: 70px;
-    text-align: center;
     margin-bottom: 100px;
 }
 
@@ -116,7 +133,7 @@ body{
 }
 
 .slider{
-    width: 400px; /* Full-width */
+    width: 100%; /* Full-width */
     height: 7px; /* Specified height */
     background: #d3d3d3; /* Grey background */
     outline: none; /* Remove outline */
@@ -245,28 +262,32 @@ text-transform: capitalize;
     
 }
 
-
-#feat3{
-    /* width: 100%;
-     */
+.articulos{
     text-align: center;
-    justify-content: center;
+    margin: 30px 0px;
+    display: inline-block;
+    width: 100%;
 }
 
-#feat3 .articulos{
-    margin-top: 50px;
-    float: none;
-    text-align: center;
+.articulos p{
+    margin: 0px;
+}
+
+.articulos img{
+    margin: 0px;
+    width: 90px;
+    height: 90px;
 }
 
 .item{
-    float: none;
     background-color: #21232f;
-    width: 350px;
-    text-align: center;
+    width: 330px;
+    height: 330px;
+    /* border: 5px solid black; */
+    display: inline-block;
     margin: 15px;
+    border-radius: 0.7em;
     padding: 30px;
-    border-radius: 1em;
 }
 
 .item h2{
@@ -337,13 +358,10 @@ footer label{
 
 footer .redes ul li{
     list-style: none;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
 footer .copy p{
-    /* display: none; */
-    /* float: left; */
     text-align: right;
     justify-content: flex-end;
 }
