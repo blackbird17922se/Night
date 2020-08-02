@@ -136,21 +136,102 @@ header .menu{
     border-radius: 0.5em;
     padding: 20px;
     width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.rango input[type="range"] {
+    outline: 0;
+    border: 0;
+    border-radius: 500px;
+    width: 100%;
+    max-width: 100%;
+    margin: 24px 0;
+    /* transition: box-shadow 0.2s ease-in-out; */
+}
+
+.rango h4{
+    margin: 0;
+    color: #999;
+    font-weight: 500;
+}
+
+.rango h4:after {
+    content: "%";
+    padding-left: 1px;
+  }
 
 .rango p{
     font-family: sans-serif;
     font-size: 12px;
 }
 
-.slider{
-    width: 100%; /* Full-width */
-    height: 7px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
+
+
+/* nuevo sld */
+
+.sld {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-minmax{
+  margin-top: 30px;
+  width: 608px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #be1212;
+  span:first-child{
+    margin-left: 500px;
+  }
+}
+.range-slider {
+    margin-top: 30vh;
+    
+}
+
+.rs-range {
+    margin-top: 29px;
+    width: 600px;
+
+}
+
+
+.rs-label {
+    
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 98px;
+    height: 98px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+    box-sizing: border-box;
+    /* border: 2px solid #fff; */
+    margin-top: 20px;
+    margin-left: -38px;
+    left: attr(value);
+    color: #f95f43;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    /* &::after {
+        content: "kjjjg";
+        display: block;
+        font-size: 20px;
+        letter-spacing: 0.07em;
+        margin-top: -2px;
+    } */
+
 }
 
 /* Graficos Barras */
