@@ -88,7 +88,6 @@ header .menu{
     font-family: sans-serif;
     font-size: 17px;
     text-transform: capitalize;
-
 }
 
 .carousel-item button:hover{
@@ -105,17 +104,13 @@ header .menu{
     padding: 40px; 
 }
 
-.contoken{
-    /* text-align: center; */
-}
-
 .token{
     background-color: #1d2029;
     border-radius: 0.5em;
     color: #fff;
     /* padding: 70px; */
     margin-bottom: 100px;
-    padding: 30px 50px 50px;
+    padding: 30px 50px 40px;
 }
 
 #contador{
@@ -136,23 +131,19 @@ header .menu{
 
 .tiempo{
     text-align: center;
-
 }
 
 .tiempo li{
     display: inline-block;
     padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .rango{
     background-color: #262835;
     border-radius: 0.5em;
     padding: 20px;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* display: flex;*/
-    /* align-items: center;
-    justify-content: center;  */
 }
 
 .rango input[type="range"] {
@@ -165,90 +156,16 @@ header .menu{
     /* transition: box-shadow 0.2s ease-in-out; */
 }
 
-/* input[type="range"]:focus{
-    outline-offset: 500px;
-} */
-
-.rango h4{
-    margin: 0;
-    color: #999;
-    font-weight: 500;
-}
-
-.rango h4:after {
-    content: "%";
-    padding-left: 1px;
-  }
-
-.rango p{
-    font-family: sans-serif;
-    font-size: 12px;
-}
-
-
-
-/* nuevo sld */
-
-/* .sld {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-/* .box-minmax{
-  margin-top: 30px;
-  width: 608px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-  color: #be1212;
-  span:first-child{
-    margin-left: 500px;
-  }
-} */
-/* .range-slider {
-    margin-top: 30vh;
-    
-} */
-/* 
-.rs-range {
-    margin-top: 29px;
-    width: 600px;
-
-} */
-
-
 .rs-label {
-    
     position: relative;
     transform-origin: center center;
     display: inline-block;
-    /* width: 98px;
-    height: 98px;
-    background: transparent;
-    border-radius: 50%; */
-    /* line-height: 30px; */
     text-align: center;
     font-weight: bold;
-    /* padding-top: 70px;
-    box-sizing: border-box; */
-    /* border: 2px solid #fff; */
-    /* margin-top: 20px;
-    margin-left: -38px;
-    left: attr(value); */
     color: #f95f43;
     font-style: normal;
     font-weight: normal;
-    /* line-height: normal; */
     font-size: 20px;
-    /* &::after {
-        content: "kjjjg";
-        display: block;
-        font-size: 20px;
-        letter-spacing: 0.07em;
-        margin-top: -2px;
-    } */
-
 }
 
 /* Graficos Barras */
@@ -265,13 +182,6 @@ header .menu{
     width:var(--chart-width);
 }
 
-.chart-wrap .title{
-    font-weight:bold;
-    padding:1.8em 0;
-    text-align:center;
-    white-space:nowrap;
-}
-
 /* cuando definimos el gráfico en horizontal, lo giramos 90 grados */
 .chart-wrap.horizontal .grid{
     transform:rotate(-90deg);
@@ -285,10 +195,8 @@ header .menu{
 }
 
 .chart-wrap .grid{
-    margin-left:50px;
+    padding: 50px 50px 50px 0px;
     position:relative;
-    padding:5px 0 5px 0;
-    height:100%;
     width:100%;
     border-left:2px solid var(--grid-color);
 }
@@ -316,6 +224,11 @@ header .menu{
     padding:10px;
     display:inline-block;
     white-space:nowrap;
+}
+
+.venta{
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* Titulo Token sale */
