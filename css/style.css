@@ -106,7 +106,7 @@ header .menu{
 }
 
 .contoken{
-    text-align: center;
+    /* text-align: center; */
 }
 
 .token{
@@ -115,12 +115,15 @@ header .menu{
     color: #fff;
     /* padding: 70px; */
     margin-bottom: 100px;
+    padding: 30px 50px 50px;
 }
 
 #contador{
     font-size: 50px;
     text-align: center;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
     /* margin-top: 30px; */
 }
 
@@ -131,15 +134,25 @@ header .menu{
     color: #313445;
 }
 
+.tiempo{
+    text-align: center;
+
+}
+
+.tiempo li{
+    display: inline-block;
+    padding: 10px;
+}
+
 .rango{
-    /* background-color: #262835;
+    background-color: #262835;
     border-radius: 0.5em;
     padding: 20px;
-    width: 100%; */
+    /* width: 100%; */
     /* height: 100%; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    /* display: flex;*/
+    /* align-items: center;
+    justify-content: center;  */
 }
 
 .rango input[type="range"] {
@@ -226,7 +239,7 @@ header .menu{
     color: #f95f43;
     font-style: normal;
     font-weight: normal;
-    line-height: normal;
+    /* line-height: normal; */
     font-size: 20px;
     /* &::after {
         content: "kjjjg";
