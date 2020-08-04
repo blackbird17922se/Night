@@ -111,6 +111,8 @@ header .menu{
     /* padding: 70px; */
     margin-bottom: 100px;
     padding: 30px 50px 40px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 );
+    box-shadow: -20px 20px 80px #000; /*SOMBRA: 0px a derecha 3px hacia abajo y 5px de tamaño*/
 }
 
 #contador{
@@ -144,6 +146,8 @@ header .menu{
     background-color: #262835;
     border-radius: 0.5em;
     padding: 20px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 );
+    box-shadow: -10px 10px 20px #000000b2;/*SOMBRA: 0px a derecha 3px hacia abajo y 5px de tamaño*/
 }
 
 .rango input[type="range"] {
@@ -153,6 +157,7 @@ header .menu{
     width: 100%;
     max-width: 100%;
     margin: 24px 0;
+
     /* transition: box-shadow 0.2s ease-in-out; */
 }
 
@@ -305,11 +310,12 @@ text-transform: capitalize;
     background-color: #21232f;
     width: 330px;
     height: 330px;
-    /* border: 5px solid black; */
     display: inline-block;
     margin: 15px;
     border-radius: 0.7em;
     padding: 30px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 );
+    box-shadow: -10px 10px 15px #000; /*SOMBRA: 0px a derecha 3px hacia abajo y 5px de tamaño*/
 }
 
 .item h2{
@@ -325,11 +331,6 @@ text-transform: capitalize;
     font-family: sans-serif;
     font-size: 17px;
 }
-
-/* .avatar{
-    width: 175px;
-    height: 179px;
-} */
 
 footer{
     background-color: #121318;
@@ -386,4 +387,32 @@ footer .redes ul li{
 footer .copy p{
     text-align: right;
     justify-content: flex-end;
+}
+
+#email{
+    background-color: #0c0f13;
+    padding-right: 2px;
+    color: white;
+    border: 0px;
+    width: 100%;
+    height: 44px;
+    border-radius: 0.5;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+    padding-right: 5px;
+}
+
+.iconoenvio{
+    color: #f95f43;
+}
+
+.iconoenvio:hover{
+    color: #fcac9e;
+
 }
